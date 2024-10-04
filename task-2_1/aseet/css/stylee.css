@@ -1,0 +1,293 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}                
+
+                                              /* header */
+   header {
+    background-color: rgba(92, 79, 79, 0.57);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header .me {
+    width: 120px;
+    height:120px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+header .ro {
+    width: 30px;
+    height:30px;
+    /* margin-top: 30px; */
+}
+
+ header h1 {
+    margin-block: 10px;
+}
+
+ header h2 {     
+    margin-block: 10px;
+}
+
+                                          /* main */
+.center {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-top: 20px;
+    border: 2px solid rgba(211, 209, 204, 0.524);
+    box-shadow: 0px 0px 10px rgba(223, 220, 220, 0.683);
+    padding: 20px 30px;
+}
+                                /* icon and header for each part */
+.icon2 {
+    width: 30px;
+    height: 30 px;
+    margin-right: 10px;
+    display: inline;
+} 
+                                    
+h3 {
+    display:inline ;
+
+}
+
+#experience h3 ,#education h3 , #programming h3 , #intrest h3{
+    font-size: 30px;
+    color: rgb(133, 133, 133);
+    margin-bottom: 20px;
+}
+                                    
+                                     /* contact me */
+#contact-me {
+    border-bottom-style: solid ;
+    border-bottom-color:  rgba(209, 211, 204, 0.524);
+    border-bottom-width: 2px ; 
+    padding-bottom: 20px;
+}
+
+#contact-me ul {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+} 
+
+#contact-me h3 {
+    font-size: 30px;
+    color: rgb(133, 133, 133);       
+}
+
+#contact-me ul a{
+    text-decoration: none;
+    color: white;
+    margin-block: auto;          
+}
+
+#contact-me ul li{
+    background-color: rgba(34, 34, 255, 0.761);
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-inline: 10px;
+}
+
+#contact-me ul img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+
+                               /* in follow me section */
+.icon {
+    width: 15px;
+    height: 15 px;
+    margin-right: 10px;
+    display: inline;
+}
+
+#i {
+    display:inline ;
+}
+
+#follow-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    border-bottom-style: solid ;
+    border-bottom-color:  rgba(211, 209, 204, 0.524);
+    border-bottom-width: 2px ;
+    padding-bottom: 20px;
+}
+
+
+#follow-me h3 {
+    font-size: 30px;
+    color: rgb(133, 133, 133);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#follow-me ul {
+
+
+    margin-left: -40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#follow-me ul li {
+    margin-inline: 5px;
+}
+                                   /* experience */
+#experience {
+    border-bottom-style: solid ;
+    border-bottom-color:  rgba(211, 209, 204, 0.524);
+    border-bottom-width: 2px ;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+#experience ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#experience ul li{
+    background-color: rgba(34, 34, 255, 0.761);
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-inline: 10px;
+    padding-top: 20px;
+    padding-bottom: 00px;
+    text-decoration: none;
+    color: white;
+}
+                                       /* education  */
+#education {
+    border-bottom-style: solid ;
+    border-bottom-color:  rgba(211, 209, 204, 0.524);
+    border-bottom-width: 2px ;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+#education ul {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#education ul li{
+    background-color: rgba(34, 34, 255, 0.761);
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-inline: 10px;
+    padding-top: 20px;
+    padding-bottom: 00px;
+    text-decoration: none;
+    color: white;
+}
+
+                                      /* programming */
+
+#programming {
+    border-bottom-style: solid ;
+    border-bottom-color:  rgba(211, 209, 204, 0.524);
+    border-bottom-width: 2px ;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+#programming ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#programming ul li{
+    background-color: rgba(34, 34, 255, 0.761);
+    width: 170px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-inline: 10px;
+    padding-top: 20px;
+    padding-bottom: 00px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+                                       /* interest  */
+#intrest {
+    border-bottom-style: solid ;
+    border-bottom-color:  rgba(211, 209, 204, 0.524);
+    border-bottom-width: 2px ;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+#intrest ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#intrest ul li{
+    background-color: rgba(34, 34, 255, 0.761);
+    width: 170px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-inline: 10px;
+    padding-top: 20px;
+    padding-bottom: 00px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
